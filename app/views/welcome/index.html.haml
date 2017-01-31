@@ -1,1 +1,30 @@
-%h1 This is the welcome placeholder
+#banner
+  .banner_content
+    %h1 Personal Notebook
+    %p Your online  notebook. Never forget your awesome ideas again!
+    %button= link_to "Sing Up", new_user_registration_path
+
+#testimonial
+  .wrapper
+    %p.quote "The awesomest notebook application. Isn't it?"
+    %p.name - Andrey Khudyakov
+
+#callouts
+  .callouts_inner
+    .wrapper
+      .callout
+        %h2 Notes
+        %p The Way Get Started Is To Quit Talking And Begin Doing.
+      .callout
+        %h2 Rocket
+        %p The Pessimist Sees Difficulty In Every Opportunity. The Optimist Sees The Opportunity In Every Difficulty.
+      .callout
+        %h2 Lightning
+        %p Don’t Let Yesterday Take Up Too Much Of Today.
+#bottom_cta
+  .wrapper
+    %h2 For RealZ?!
+    %p We want you to sign up... If you don't, we will find you - Hot Donald!
+    %button= link_to "Click me Now!!!", new_user_registration_path
+%footer
+  %p &copy; Andrey Khudyakov         
