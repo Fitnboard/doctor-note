@@ -20,14 +20,15 @@ gem 'devise', '~> 4.2'
 
 
 group :development, :test do
-  gem 'byebug', platform: :mri
+  gem 'sqlite3'
+  gem 'byebug',  '9.0.0', platform: :mri
 end
 
 group :development do
-  gem 'web-console', '>= 3.3.0'
-  gem 'listen', '~> 3.0.5'
-  gem 'spring'
-  gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'web-console',           '3.1.1'
+  gem 'listen',                '3.0.8'
+  gem 'spring',                '1.7.2'
+  gem 'spring-watcher-listen', '2.0.0'
 end
 
 group :test do
